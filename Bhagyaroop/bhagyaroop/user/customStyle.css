@@ -1,0 +1,705 @@
+/* Premium Plans */
+
+.plan .details table tr td{
+    font-family: 'Abhaya Libre';
+    font-size: 20px;
+}
+
+
+.plan .details{
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0px;
+    box-shadow: 0 0px 30px rgb(39 34 188 / 20%);
+    padding: 20px 10px 20px 10px;
+}
+
+.plan .details h2{
+    margin-top: 5px;
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.plan .details h3{
+    margin-top: 5px;
+    font-family: 'Abhaya Libre';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.plan label{
+    font-size: 25px;
+}
+
+.details button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px 14px 8px 14px;
+    border: none;
+    border-radius: 0px;
+    background: #751e1e;
+    color: white;
+}
+
+.details button:hover{
+    background: #E74C3C;
+}
+
+.premiumPlan{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0px;
+    box-shadow: 0 0px 30px rgb(39 34 188 / 20%);
+    padding: 20px 10px 20px 10px;
+}
+
+.premiumPlan h3{
+    margin-top: 20px;
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.premiumPlan h2{
+    margin-top: 20px;
+    font-family: 'Abhaya Libre';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.premiumPlan label{
+    font-size: 30px;
+}
+
+.premiumPlan button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px 12px 8px 12px;
+    border: none;
+    border-radius: 0px;
+    background: #751e1e;
+    color: white;
+}
+
+.premiumPlan button:hover{
+    background: #E74C3C;
+}
+
+button.premium{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px 12px 8px 12px;
+    border: none;
+    border-radius: 20px;
+    background: #972222;
+    color: white;
+}
+
+button.premium:hover{
+    background: #E74C3C;
+}
+
+.selectedpremiumPlan button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px 12px 8px 12px;
+    border: 1px solid white;
+    border-radius: 0px;
+    background: white;
+    color: #751e1e;
+    font-weight: bold;
+}
+
+.selectedpremiumPlan button:hover{
+    background: #BFC9CA;
+    border: 1px solid #BFC9CA;
+}
+
+.selectedpremiumPlan{
+    margin-top: -20px;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #751e1e;
+    background-clip: border-box;
+    border: 1px
+    solid rgba(0, 0, 0, 0.125);
+    border-radius: 0px;
+    box-shadow: 0 0px 30px rgb(39 34 188 / 20%);
+    padding: 40px 18px 40px 18px;
+}
+
+.selectedpremiumPlan h3{
+    margin-top: 20px;
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.selectedpremiumPlan h2{
+    margin-top: 20px;
+    font-family: 'Abhaya Libre';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.selectedpremiumPlan label{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+.payment{
+    background: #F7F9F9 ;
+    width: 40%;
+    border-radius: 20px;
+    padding: 15px 5px 15px 5px;
+    border: solid 1px #F0F3F4;
+}
+
+
+.bank table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bank table tr td{
+    font-size: 24px;
+}
+
+.payment h2{
+    font-family: 'Alatsi';
+}
+
+.payment h2 span{
+    font-weight: bold;
+}
+
+span.pay{
+    font-family: 'Alatsi';
+    font-size: 20px;
+}
+
+
+/* #sec1{
+    padding: 20px 0px 20px 70px;
+}
+
+#sec2{
+    padding: 20px 30px 20px 30px;
+}
+
+#sec3{
+    padding: 20px 70px 20px 0px;
+} */
+
+
+.myform1{
+    background: white;
+    border: 0 none;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px 20px 40px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+
+.myform1 table th{
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.myform1 table td{
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.myform1 h1{
+    margin-top: 24px;font-size: 28px;text-align: left;color: #751e1e;
+}
+
+.preview{
+    margin-left: 180px;
+    
+}
+
+
+
+
+
+
+.weight1 input{
+    margin-left:-66px;
+}
+
+.weight label{
+    margin-left: -76px;
+}
+
+
+
+.myform{
+    background: white;
+    border: 0 none;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px 20px 40px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.myform p{
+    color: #751e1e;
+    font-family: 'Amethysta';
+    font-weight: bold;
+}
+
+.myform ol li{
+    color: #751e1e;
+    text-align: justify;
+}
+
+.form-cont ul li{
+    list-style: none;
+}
+
+.form-cont ul li input[type = 'file']{
+    padding: 10px 12px 10px 12px;
+    border: solid #751e1e 1px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-cont ul li input[type = 'submit']{
+    padding: 8px 35px 8px 35px; /*top right bottom left*/
+    border-radius: 2px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;font-size: 16px;
+}
+
+.form-cont ul li input[type = 'submit']:hover{
+    background: #E74C3C ;
+}
+
+li.head1{
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: #C0392B;
+    font-family: 'Amethysta';
+}
+
+
+
+nav.custom{
+    padding: 20px 30px 20px 30px;
+}
+
+nav.custom img{
+    width: 300px;
+    height: 80px;
+}
+
+nav.custom ul{
+    float: right;
+    padding-right: 70px;
+}
+
+nav.custom ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 35px 8px 35px; 
+    border-radius: 30px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;font-size: 16px;
+}
+
+nav.custom ul li:hover{
+    background: #E74C3C ;
+}
+
+nav.custom ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav.custom ul li a:hover{
+    text-decoration: none;
+} 
+
+
+/*top right bottom left*/
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    height: 100%
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#msform fieldset .form-card {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px 30px 40px;
+    box-sizing: border-box;
+    width: 94%;
+    margin: 0 3% 20px 3%;
+    position: relative
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+#msform fieldset .form-card {
+    text-align: left;
+    color: #9E9E9E
+}
+
+
+input[type = 'number']{
+    padding: 0px 8px 4px 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: black
+}
+
+#msform input[type = 'text'], input[type = 'number']
+#msform textarea {
+    padding: 0px 8px 4px 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: black
+}
+
+
+#msform input[type = 'time']{
+    padding: 0px 0px 0px 6px;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+
+#msform input[type = 'date']{
+    padding: 0px 0px 0px 6px;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+
+#msform textarea{
+    border: 1px solid #9E9E9E;
+    border-radius: 6px;
+    height: 140px;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px 10px 15px;
+    resize: none;
+    font-weight: bold;
+    width:100%;
+}
+
+#msform textarea:focus{
+    color: black;
+    font-weight: bold;
+    outline-width: 0;
+    font-size: 18px;
+    border: 2px solid skyblue;
+}
+
+#msform input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none;
+    font-weight: bold;
+    border-bottom: 2px solid skyblue;
+    outline-width: 0;
+    font-size: 18px;
+}
+
+#msform .action-button {
+    width: 100px;
+    background: skyblue;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 11px 4px 10px 4px;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px skyblue
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #616161
+}
+
+select option{
+    color: black;
+}
+
+select.list-dt {
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 2px 5px 3px 5px;
+    margin: 2px;
+    color: black;font-size: 18px;font-weight: bold;
+}
+
+
+.line{
+    border-bottom: solid 2px #5DADE2;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+select.list-dt:focus {
+    border-bottom: 2px solid skyblue
+}
+
+.card {
+    z-index: 0;
+    border: none;
+    border-radius: 0.5rem;
+    position: relative
+}
+
+.fs-title {
+    font-size: 25px;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey
+}
+
+#progressbar .active {
+    color: #000000
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 12px;
+    width: 11%;
+    float: left;
+    position: relative
+}
+
+#progressbar #account:before {
+    font-family: FontAwesome;
+    content: "\f023"
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f007"
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f09d"
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: skyblue
+}
+
+.radio-group {
+    position: relative;
+    margin-bottom: 25px
+}
+
+.radio {
+    display: inline-block;
+    width: 204;
+    height: 104;
+    border-radius: 0;
+    background: lightblue;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 8px 2px
+}
+
+.radio:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3)
+}
+
+.radio.selected {
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1)
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+
+@media only screen and (max-width: 980px) {
+    .premiumPlan{
+        margin-top: 40px;
+    }
+
+    .payment{
+        width: 50%;
+    }
+    #sec1{
+        padding: 20px 40px 20px 40px;
+    }
+    
+    #sec2{
+        padding: 20px 40px 20px 40px;
+    }
+    
+    #sec3{
+        padding: 20px 40px 20px 40px;
+    }
+
+    .preview{
+        margin-left: 0px;
+    }
+    div.addon{
+        margin-top: 35px;
+    }
+    .myform{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    nav.custom img{
+        width: 150px;
+        height: 50px;
+    }
+    nav.custom li.head1{
+        font-size: 16px;
+    }
+    .myform1{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,1210 @@
+/* Navbar Design */
+
+
+nav.custom{
+    padding: 20px 30px 20px 30px;
+}
+
+nav.custom img{
+    width: 300px;
+    height: 80px;
+}
+
+nav.custom ul{
+    float: right;
+    padding-right: 100px;
+}
+nav.custom ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 15px 8px 15px; 
+    border-radius: 2px;
+    border-width: 1px;
+}
+
+nav.custom ul li a{
+    color: #751e1e;
+}
+
+nav.custom ul li a:hover{
+    text-decoration: none;
+    color: #E74C3C;
+}
+
+nav.custom a button{
+    position: absolute;
+    width: auto;
+    right: 1%;
+    padding: 5px 20px 5px 20px; /*top right bottom left*/
+    border-radius: 5px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+    width: auto;
+    font-family: 'Adamina';
+}
+
+nav.custom a button:hover{
+    background: #E74C3C;
+    border: solid #E74C3C;
+}
+
+nav.custom li.active a{
+    color: #E74C3C;
+}
+
+.alertUpdate{
+    position: relative;
+}
+
+.alertUpdate span{
+    border-radius: 50%;
+    background: #FDFEFE;
+    position: absolute;
+    top: -30px;
+    right: -16px;
+    padding: 3px 10px 3px 10px;
+    font-weight: bold;
+}
+
+/* filterForm */
+.filterForm{
+    border:1px solid #751e1e;
+    background: #FDFEFE;
+}
+
+.filterForm .filterHead{
+    text-align: left;
+    background: #751e1e;
+    padding: 5px 15px 5px 15px;
+}
+.filterForm .filterHead span{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Adamina';
+}
+.filterContent{
+    padding: 2px 10px 2px 20px;
+}
+.filterContent h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #751e1e;
+    font-family: 'Adamina';
+}
+
+.filterContent h4{
+    font-size: 18px;
+    color: #751e1e;
+    font-family: 'Adamina';
+}
+
+.filterContent ul li{
+    list-style: none;
+    margin-left: -40px;
+}
+
+.filterContent ul li input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+
+.filterContent ul li label{
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Adamina';
+    font-weight: lighter;
+}
+
+.filterContent input[type="number"]{
+    width: 100%;
+    border-radius: 0px;
+    border: 1px solid #751e1e;
+    padding: 4px 8px 4px 8px;
+    font-size: 16px;
+    font-family: 'Adamina';
+}
+
+.filterContent select{
+    width: 100%;
+    padding: 6px 8px 6px 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    font-family: 'Adamina';
+    border:1px solid #CACFD2;
+}
+
+.filterContent input[type="text"]{
+    width: 100%;
+    border-radius: 0px;
+    border: 1px solid #751e1e;
+    padding: 4px 8px 4px 8px;
+    font-size: 16px;
+    font-family: 'Adamina';
+}
+
+
+.filterContent input[type = 'submit']{
+    padding: 5px 20px 5px 20px; /*top right bottom left*/
+    border-radius: 0px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+    width: auto;
+    font-family: 'Adamina';
+}
+
+.filterContent input[type = 'submit']:hover{
+    background: #BD442B;
+}
+
+.filterContent input[type = 'reset']{
+    padding: 5px 20px 5px 20px; /*top right bottom left*/
+    border-radius: 0px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+    width: auto;
+    font-family: 'Adamina';
+}
+
+.filterContent input[type = 'reset']:hover{
+    background: #BD442B;
+}
+
+/* Filter Results OR People Grid */
+
+.filterBlock{
+    background: #FDFEFE;
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+}
+
+.filterBlock .filterProfile{
+    margin-top: 30px;
+}
+
+.filterBlock .filterProfile table tr td .card img{
+    height: 230px;
+    width: 160px;
+}
+
+.filterBlock .filterProfile table tr td .card{
+    position: relative;
+}
+
+.filterBlock .filterProfile table tr td .card span{
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    color: white;
+    background: #751e1e;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 5px 18px 5px 18px;
+    font-family: 'Adamina';
+}
+
+.filterBlock .filterProfile .profileData{
+    margin-left: 20px;
+}
+
+.filterBlock .filterProfile .profileData h4{
+    font-size: 22px;
+    font-family: 'Adamina';
+    font-weight: bold;
+}
+
+.filterBlock .filterProfile .profileData h5{
+    font-size: 20px;
+    font-family: 'Adamina';
+}
+
+.filterBlock .filterProfile .profileData ul{
+    margin-left: -40px;
+}
+
+.filterBlock .filterProfile .profileData ul li{
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Adamina';
+}
+
+.filterBlock .filterProfile table tr td a{
+    text-decoration: none;
+    padding: 5px 20px 5px 20px; /*top right bottom left*/
+    border-radius: 5px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Adamina';
+}
+
+.filterBlock .filterProfile table tr td a:hover{
+    background: #BD442B;
+}
+
+/* ------------- Pagination ------------- */
+
+.pagination {
+    display: inline-block;
+  }
+  
+.pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    background:#751e1e; 
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+.pagination a:hover{
+    text-decoration: none;
+    color: white;
+    background: #BD442B;
+}
+
+
+/* ------------- Profile Details -------------*/
+
+/* .profileDetails{
+    padding: 20px 0px 20px 0px;
+    background: #FDFEFE;
+} */
+
+.profileDetails table{
+    padding: 20px 30px 20px 30px;
+    background: #FDFEFE;
+    width: 70%;
+    border:2px solid #751e1e;
+}
+
+.profileDetails table tr th{
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+    font-family: 'Adamina';
+}
+.profileDetails table tr td{
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+    font-family: 'Adamina';
+}
+
+.profileDetails table tr td a{
+    color: #FDFEFE;
+}
+
+.profileDetails table tr td a:hover{
+    color: #BD442B;
+}
+
+.profileDetails h2{
+    font-size: 28px;
+    font-family: 'Adamina';
+    font-weight: bold;
+}
+
+.profileDetailsFields{
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.profileDetailsFields ul{
+    margin-left: -38px;
+}
+
+.profileDetailsFields ul li{
+    list-style: none;
+    font-size: 22px;
+    font-family: 'Adamina';
+}
+
+.plan{
+    position: relative;
+    padding: 20px 15px 20px 15px;
+}
+
+.plan span{
+    position: relative;
+    bottom: 16px;
+    color: white;
+    background: #751e1e;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 5px 15px 5px 15px;
+    font-family: 'Adamina';
+}
+
+/* ------------------ Hide OR Show Contact Details ------------------ */
+.HideContact{
+    padding: 0px 0px 20px 0px;
+    background: #FDFEFE;
+    border:2px solid #751e1e;
+}
+
+.HideContact table{
+    padding: 20px 30px 20px 30px;
+    background: #FDFEFE;
+    width: 70%;
+}
+
+.HideContact table tr th{
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+    font-family: 'Adamina';
+}
+.HideContact table tr td{
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+    font-family: 'Adamina';
+}
+
+.HideContact .head{
+    text-align: left;
+    background: #751e1e;
+    padding: 10px 15px 10px 15px;
+}
+
+.HideContact .head span{
+    color: white;
+    font-size: 20px;
+    font-family: 'Adamina';
+}
+
+.HideContact input[type = 'submit']{
+    padding: 8px 35px 8px 35px; /*top right bottom left*/
+    border-radius: 2px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+}
+
+.HideContact input[type = 'submit']:hover{
+    background: #E74C3C ;
+}
+
+.HidePhoto{
+    padding: 0px 0px 20px 0px;
+    background: #FDFEFE;
+}
+
+.HidePhoto input[type = 'submit']{
+    margin-top: 20px;
+    padding: 8px 35px 8px 35px; /*top right bottom left*/
+    border-radius: 2px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+}
+
+.HidePhoto input[type = 'submit']:hover{
+    background: #E74C3C ;
+}
+
+/* ------------- Profile Document Verification -------------*/
+
+.myActivity{
+    border:1px solid #751e1e;
+    background: #FDFEFE;
+}
+
+.myActivity .filterHead{
+    text-align: left;
+    background: #751e1e;
+    padding: 5px 15px 5px 15px;
+}
+
+.myActivity .filterHead span{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Adamina';
+}
+
+.myActivity ul li{
+    list-style: none;
+    padding: 8px 5px 8px 5px;
+    font-family: 'Adamina';
+    font-size: 16px;
+}
+
+.peopleProfile{
+    border:1px solid #FDFEFE;
+    background: #FDFEFE;
+}
+
+.peopleProfile img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.peopleProfile h2{
+    color: #751e1e;
+    font-family: 'Adamina';
+    font-size: 22px;
+}
+
+.peopleProfile h3{
+    margin-top: -6px;
+    color: #751e1e;
+    font-family: 'Adamina';
+    font-size: 18px;
+}
+
+.peopleProfile h5{
+    margin-top: -6px;
+    color: #751e1e;
+    font-family: 'Adamina';
+    font-size: 18px;
+}
+
+.peopleProfile button{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 5px 20px 5px 20px; /*top right bottom left*/
+    border-radius: 0px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+    width: auto;
+    font-family: 'Adamina';
+}
+
+.peopleProfile button:hover{
+    background: #BD442B;
+    border: solid #BD442B;
+    padding: 5px 20px 5px 20px; /*top right bottom left*/
+    border-radius: 0px;
+    border-width: 1px;
+    color: white ;
+    font-size: 16px;
+    width: auto;
+    font-family: 'Adamina';
+}
+
+/* --------------- Action Menus -------------- */
+ul.actionMenu{
+    margin-left: -40px;
+}
+
+ul.actionMenu li{
+    width: 100%;
+}
+
+ul.actionMenu li a{
+    padding-left: 20px;
+    color: #751e1e;
+    font-family: 'Adamina';
+}
+
+ul.actionMenu li a:hover{
+    margin-left: 8px;
+    text-decoration: none;
+    color: #FDFEFE;
+    padding: 5px 12px 5px 12px;
+    border-radius: 12px;
+    background: #BD442B;
+}
+
+ul.actionMenu li a.activated{
+    margin-left: 8px;
+    text-decoration: none;
+    color: #FDFEFE;
+    padding: 5px 12px 5px 12px;
+    border-radius: 12px;
+    background: #BD442B;
+}
+
+/* -------------------- My Profile ------------------- */
+
+.plan button{
+    position: relative;
+    bottom: 20px;
+    color: white;
+    background: #751e1e;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 5px 15px 5px 15px;
+    font-family: 'Adamina';
+}
+
+.plan button:hover{
+    position: relative;
+    bottom: 20px;
+    color: white;
+    background: #BD442B;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 5px 15px 5px 15px;
+    font-family: 'Adamina';
+}
+
+/* -------------------- Change Password ------------------- */
+.changePassword{
+    padding: 0px 30px 20px 30px;
+    /* background: #FDFEFE; */
+}
+
+.myform{
+    background: white;
+    border: 2px solid #751e1e;
+    border-radius: 0px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.myform ul li{
+    list-style: none;
+    padding: 10px 12px 10px 12px;
+}
+
+.myform .head{
+    text-align: left;
+    background: #751e1e;
+    padding: 15px 15px 15px 15px;
+}
+
+.myform .head span{
+    color: white;
+    font-size: 24px;
+    font-family: 'Adamina';
+}
+
+.myform ul li.head1{
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    font-size: 18px;
+    color: #751e1e;
+    font-family: 'Amethysta';
+}
+
+.myform ul li input[type = 'text']{
+    padding: 10px 12px 10px 12px;
+    border: solid #751e1e 1px;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.myform ul li input[type = 'text']:focus{
+    outline: none;
+    box-shadow: 1px 1px 5px #751e1e;
+}
+
+.myform ul li input[type = 'password']{
+    padding: 10px 12px 10px 12px;
+    border: solid #751e1e 1px;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.myform ul li input[type = 'password']:focus{
+    outline: none;
+    box-shadow: 1px 1px 5px #751e1e;
+}
+
+.myform ul li textarea{
+    padding: 10px 12px 10px 12px;
+    border: solid #751e1e 1px;
+    border-radius: 0px;
+    width: 100%;
+    height: 160px;
+    resize: none;
+}
+
+.myform ul li textarea:hover{
+    outline: none;
+    box-shadow: 1px 1px 5px #751e1e;
+}
+
+.myform ul li input[type = 'file']{
+    display: none;
+}
+
+.myform ul li .custom-file-upload{
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 35px 8px 35px; /*top right bottom left*/
+    border-radius: 2px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.myform ul li span{
+    font-size: 18px;
+    color: #751e1e;
+    font-family: 'Amethysta';
+}
+
+.myform ul li select{
+    padding: 11px 12px 11px 12px;
+    border: solid #751e1e 1px;
+    border-radius: 5px;
+    width:35%
+}
+
+.myform ul li select:focus{
+    outline: none;
+}
+
+.myform ul li input[type = 'submit']{
+    padding: 8px 35px 8px 35px; /*top right bottom left*/
+    border-radius: 2px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+}
+
+.myform ul li input[type = 'submit']:hover{
+    background: #E74C3C;
+}
+
+/* ------------------------- Photo Gallery ----------------------- */
+
+.photoGallery{
+    padding: 20px 30px 20px 30px;
+    background: #FDFEFE;
+}
+
+.photoGallery .photos .gal{
+    width: 220px;
+    height: 320px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+    background: #F2F3F4;
+}
+
+.photoGallery .photos img{
+    width: 100%;
+    height: auto;
+}
+
+.photoGallery .photos .gal:hover{
+    width: 220px;
+    height: 320px;
+    border: 5px solid #3498DB;
+    margin-top: 20px;
+}
+
+/* ------------------------- Change Photo ----------------------- */
+.uploadPhotos{
+    padding: 20px 30px 20px 30px;
+    background: #FDFEFE;
+}
+
+.uploadPhotos .seperator{
+    margin-top: 20px;
+    border: 1px dotted #751e1e;
+    padding: 20px 15px 20px 15px;
+}
+
+.uploadPhotos table tr td .img1{
+    width: 200px;
+    height: 300px;
+    padding: 5px 10px 5px 10px;
+    background: #F8F9F9;
+    position: relative;
+}
+
+.uploadPhotos table tr td .img1 a{
+    top: -20px;
+    left: 180px;
+    font-size: 30px;
+    font-family: 'Amethysta';
+    color: #751e1e;
+    position: relative;
+}
+
+
+.uploadPhotos table tr td .img1 a:hover{
+    color: #E74C3C;
+}
+
+.uploadPhotos table tr td .img1 img{
+    width: 100%;
+    height: auto;
+    margin-top: -25px;
+}
+
+.uploadPhotos table tr td ul{
+    margin-left: -29px;
+}
+
+.uploadPhotos table tr td ul li{
+    list-style: none;
+}
+
+.uploadPhotos table tr td ul li a{
+    padding: 10px 39px 10px 34px; /*top right bottom left*/
+    border-radius: 2px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+    width: 180px;
+}
+
+.uploadPhotos table tr td ul li a:hover{
+    background: #E74C3C;
+    text-decoration: none;
+}
+
+
+.uploadPhotos table tr td ul li span{
+    font-family: 'Alatsi';
+    font-size: 20px;
+    color: #751e1e;
+    font-weight: bold;
+}
+
+.uploadPhotos table tr td ul li .custom-file-upload input[type="file"]{
+    display: none;
+}
+
+.uploadPhotos table tr td ul li .custom-file-upload{
+    display: inline-block; cursor: pointer;
+    
+    width: 180px;
+    padding: 8px 35px 8px 35px;
+    border-radius: 2px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.uploadPhotos table tr td ul li label .img{
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    height: 300px;
+}
+
+.uploadPhotos table tr td ul li label .img img{
+    width: 100%;
+    height: auto;
+    margin-left: -10px;
+}
+
+.uploadPhotos table tr td ul li .custom-file-upload:hover{
+    background: #E74C3C ;
+    border:1px solid #E74C3C;
+}
+
+.uploadPhotos input[type="submit"]{
+    margin-top: 20px;
+    width: 100%;
+    padding: 8px 35px 8px 35px; /*top right bottom left*/
+    border-radius: 2px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.uploadPhotos input[type="submit"]:hover{
+    background: #E74C3C ;
+    border:1px solid #E74C3C;
+}
+
+.uploadPhotos input[type="submit"]:disabled{
+    margin-top: 20px;
+    width: 100%;
+    padding: 8px 35px 8px 35px; /*top right bottom left*/
+    border-radius: 2px;
+    border: solid #5D6D7E;
+    border-width: 1px;
+    cursor: not-allowed;
+    color: white ;
+    background: #5D6D7E;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+/* ------------------------- Premium Plan ----------------------- */
+
+.plan1 .details table tr td{
+    font-family: 'Abhaya Libre';
+    font-size: 18px;
+}
+
+
+.plan1 .details{
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0px;
+    box-shadow: 0 0px 30px rgb(39 34 188 / 20%);
+    padding: 20px 10px 20px 10px;
+}
+
+.plan1 .details h2{
+    margin-top: 5px;
+    font-family: 'Abhaya Libre';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.plan1 .details h3{
+    margin-top: 5px;
+    font-family: 'Abhaya Libre';
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.plan1 label{
+    font-size: 25px;
+}
+
+
+.plan1 button{
+    margin-top: 20px;
+    padding: 8px 16px 8px 16px; /*top right bottom left*/
+    border-radius: 0px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+}
+
+.plan1 button:hover{
+    background: #E74C3C ;
+}
+
+.payment{
+    background: #F7F9F9 ;
+    width: 40%;
+    border-radius: 20px;
+    padding: 15px 5px 15px 5px;
+    border: solid 1px #F0F3F4;
+}
+
+
+.bank table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bank table tr td{
+    font-size: 24px;
+}
+
+.payment h2{
+    font-family: 'Alatsi';
+}
+
+.payment h2 span{
+    font-weight: bold;
+}
+
+span.pay{
+    font-family: 'Alatsi';
+    font-size: 20px;
+}
+
+.payment .custom-file-upload{
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 35px 8px 35px; /*top right bottom left*/
+    border-radius: 2px;
+    border: solid #3498DB;
+    border-width: 1px;
+    color: white ;
+    background: #3498DB;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.payment .custom-file-upload:hover{
+    background: #5DADE2 ;
+    border:1px solid #5DADE2;
+}
+
+.fileName span{
+    font-size: 22px;
+    font-weight: bold;
+    color: #751e1e;
+    font-family: 'Amethysta';
+}
+
+.payment input[type = 'file']{
+    display: none;
+}
+
+.payment input[type = 'submit']{
+    margin-top: 20px;
+    padding: 8px 16px 8px 16px; /*top right bottom left*/
+    border-radius: 0px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+}
+
+.payment input[type = 'submit']:hover{
+    background: #E74C3C ;
+}
+
+/* ------------------- Kundali Matching --------------------- */
+
+.kundali-form .form-content{
+    border-radius: 0px;
+    border: 3px solid #751e1e;
+    width: 100%;
+    background: #FDFEFE;
+}
+
+.kundali-form .head{
+    text-align: left;
+    background: #751e1e;
+    padding: 15px 15px 15px 15px;
+}
+
+.kundali-form .head span{
+    color: aliceblue;
+    font-size: 24px;
+    font-family: 'Adamina';
+}
+
+.kundali-form .form-content h2{
+    font-weight: bold;
+    color: #751e1e;
+    font-size: 20px;
+    font-family: 'Adamina';
+    text-align: left;
+    padding-left: 4px;
+    margin-top: -8px;
+}
+
+.kundali-form .form-content ul li{
+    list-style: none;
+    padding: 0px 40px 15px 15px;
+}
+
+.kundali-form .form-content input[type="text"]{
+    border-radius: 0px;
+    padding: 10px 15px 10px 15px; 
+    width: 100%;
+    border: solid #751e1e;
+    border-width: 1px;
+}
+
+.kundali-form .form-content input[type="datetime-local"]{
+    border-radius: 0px;
+    padding: 3px 15px 3px 15px; 
+    width: 100%;
+    border: solid #751e1e;
+    border-width: 1px;
+}
+
+.kundali-form .form-content select{
+    border-radius: 0px;
+    padding: 10px 15px 10px 15px; 
+    width: 100%;
+    border: solid #751e1e;
+    border-width: 1px;
+    margin-right: 20px;
+}
+
+.kundali-form .form-content input[type="text"]:focus{
+    outline: none;
+    box-shadow: 1px 1px 10px #A73922;
+}
+
+.kundali-form .form-content input[type = 'submit']{
+    padding: 5px 25px 5px 25px; /*top right bottom left*/
+    border-radius: 0px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 18px;
+}
+
+.kundali-form .form-content input[type = 'submit']:hover{
+    background: #BD442B;
+}
+.kundali-form table thead tr td{
+    color: white;font-size: 18px;background: #751e1e;
+}
+
+/* -------------- Incoming Interest -------------- */
+
+.incoming-interest table{
+    background: #F8F9F9;
+    border-radius: 55px;
+    margin-top: 20px;
+}
+
+.incoming-interest table tr td img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.incoming-interest table tr td ul{
+    margin-left: -20px;
+}
+
+.incoming-interest table tr td ul li{
+    list-style: none;
+}
+
+.incoming-interest table tr td h4 a{
+    color: #751e1e;
+    font-size: 22px;
+    font-family: 'Adamina';
+}
+
+.incoming-interest table tr td h4 a:hover{
+    text-decoration: none;
+    color: #E74C3C;
+    font-size: 22px;
+    font-family: 'Adamina';
+}
+
+.incoming-interest table tr td button{
+    padding: 2px 8px 2px 8px; /*top right bottom left*/
+    border-radius: 0px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;
+    font-size: 16px;
+}
+
+.incoming-interest table tr td button:hover{
+    background: #BD442B;
+    border: solid #BD442B;
+}
+
+/* ------------------------ Notifications ----------------------- */
+
+.notification table{
+    background: #F8F9F9;
+    border-radius: 55px;
+    margin-top: 20px;
+}
+
+.notification table tr td img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.notification table tr td p{
+    color: #751e1e;
+    font-size: 20px;
+    font-family: 'Adamina';
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.notification table tr td p a{
+    color: #751e1e;
+    font-weight: bold;
+} 
+
+.notification table tr td p a:hover{
+    text-decoration: none;
+    color: #E74C3C;
+}
+
+.notification table tr td button{
+    background: none;
+    border: none;
+}
+
+.notification table tr td button i{
+    color: #751e1e;
+    font-weight: bold;font-size: 24px;
+} 
+
+.notification table tr td button i:hover{
+    text-decoration: none;
+    color: #E74C3C;
+}
+
+/* ------------- Pop Up ------------ */
+
+.myModal{
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* -------------- Blocked -------------- */
+label.blocked{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 5px 20px 5px 20px; /*top right bottom left*/
+    border-radius: 0px;
+    border: solid #5D6D7E;
+    border-width: 1px;
+    color: white ;
+    background: #5D6D7E;
+    font-size: 16px;
+    width: auto;
+    font-family: 'Adamina';
+    font-weight: lighter;
+    cursor: not-allowed;
+}
+/* Responsive Style */
+
+@media only screen and (max-width: 980px) {
+    .payment{
+        width: 50%;
+    }
+    .main-content{
+        padding-top: 20px;
+    }
+    .changePassword{
+        padding: 0px 0px 20px 0px;
+        /* background: #FDFEFE; */
+    }
+    .profileDetails table{
+        width: 100%;
+    }
+}

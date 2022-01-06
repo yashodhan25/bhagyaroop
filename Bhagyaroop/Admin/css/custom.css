@@ -1,0 +1,361 @@
+body{
+    background-image: url('./../back.jpeg');
+}
+
+li.head1{
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: #C0392B;
+    font-family: 'Amethysta';
+}
+
+ul li input[type = 'file']{
+    padding: 10px 12px 10px 12px;
+    border: solid #751e1e 1px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ul li input[type = 'submit']{
+    padding: 8px 35px 8px 35px; /*top right bottom left*/
+    border-radius: 2px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;font-size: 16px;
+}
+
+ul li input[type = 'submit']:hover{
+    background: #E74C3C ;
+}
+
+.myForm button{
+    padding: 8px 35px 8px 35px; /*top right bottom left*/
+    border-radius: 2px;
+    border: solid #751e1e;
+    border-width: 1px;
+    color: white ;
+    background: #751e1e;font-size: 16px;
+}
+
+.myForm button:hover{
+    background: #E74C3C ;
+}
+
+.action table thead tr{
+    background: #BD442B;
+}
+
+.action table thead tr td{
+    color: #FDFEFE;
+    font-size: 16px;
+    font-family: 'Adamina';
+}
+
+.myModal{
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+
+.myform1 table th{
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.myform1 table td{
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.document ul li input[type="text"]{
+    border-radius: 0px;
+    padding: 10px 15px 10px 15px; 
+    width: 50%;
+    border: solid #A73922;
+    border-width: 1px;
+}
+
+.document ul li input[type="text"]:focus{
+    outline: none;
+    box-shadow: 1px 1px 10px #A73922;
+}
+
+.document ul li button{
+    background: #BD442B;
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+    color: #FDFEFE;
+    border: none;
+}
+
+
+.document ul li button:hover{
+    background: #A73922;
+}
+
+.document ul li input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+}
+
+.document ul li span{
+    font-size: 18px;
+    font-family: 'Adamina';
+}
+
+.document ul li{
+    list-style: none;
+    padding-top: 15px;
+}
+
+.document h2{
+    font-size: 24px;
+    color: forestgreen;
+}
+
+.document{
+    margin-top: 30px;
+    padding: 10px 60px 10px 60px;
+    border: 1px dotted #BD442B;
+    width: 90%;
+}
+
+button.view-button{
+    background: #BD442B;
+    padding: 5px 15px 5px 15px;
+    font-size: 16px;
+    color: #FDFEFE;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Adamina';
+}
+
+button.view-button:hover{
+    background: #d64c31;
+}
+
+.action{
+    width: 70%;
+    padding: 10px 20px 10px 20px;
+    background: #FDFEFE;
+    border-radius: 5px;
+    border: 1px solid #FDFEFE;
+    margin-bottom: 20px;
+}
+
+.action table tbody tr td button{
+    background: #BD442B;
+    padding: 5px 15px 5px 15px;
+    font-size: 14px;
+    color: #FDFEFE;
+    border: none;
+}
+
+
+.action table tbody tr td button:hover{
+    background: #A73922;
+}
+
+
+
+form.example input[type=text] {
+padding: 10px;
+font-size: 16px;
+border: 1px solid #A73922;
+float: left;
+width: 80%;
+font-family: 'Adamina';
+background: #FDFEFE;
+color: black;
+}
+
+form.example button {
+float: left;
+width: 20%;
+padding: 10px;
+background: #A73922;
+color: white;
+font-size: 16px;
+border: 1px solid #A73922;
+border-left: none;
+cursor: pointer;
+}
+
+form.example button:hover {
+background: #d64c31;
+}
+
+form.example::after {
+content: "";
+clear: both;
+display: table;
+}
+
+form.example input[type=text]:focus{
+outline: none;
+}
+
+
+
+.navbar{
+    background: #A73922;
+}
+
+a.navbar-brand{
+    color: #FDFEFE;
+    font-family: 'Adamina';
+}
+
+.navbar ul li a{
+    color: #FDFEFE;
+    font-size: 16px;
+    font-family: 'Adamina';
+}
+
+.logout{
+    right: 0;
+    position: absolute;
+    margin-right: 20px;
+}
+
+button.logout{
+    background: #d64c31;
+    padding: 5px 15px 5px 15px;
+    font-size: 16px;
+    color: #FDFEFE;
+    border: none;
+    margin-top: 10px;
+}
+
+button.logout:hover{
+    background: #BD442B;
+}
+
+.users table thead tr{
+    background: #BD442B;
+}
+
+.users table thead tr td{
+    color: #FDFEFE;
+    font-size: 16px;
+    font-family: 'Adamina';
+}
+
+.users table tbody tr td button{
+    background: #BD442B;
+    padding: 5px 15px 5px 15px;
+    font-size: 14px;
+    color: #FDFEFE;
+    border: none;
+}
+
+
+.users table tbody tr td button:hover{
+    background: #A73922;
+}
+
+.users table tbody tr td{
+    background: #FDFEFE;
+    font-size: 16px;
+    font-family: 'Adamina'
+}
+
+.active{
+    background: #BD442B;
+}
+
+.form-content{
+    margin-top: 50px;
+    border-radius: 0px;
+    border: 3px solid #A73922;
+    width: 60%;
+    background: #FDFEFE;
+}
+
+.head{
+    text-align: left;
+    background: #A73922;
+    padding: 15px 15px 15px 15px;
+}
+
+.head span{
+    color: aliceblue;
+    font-size: 24px;
+    font-family: 'Adamina';
+}
+
+.form-content ul li{
+    list-style: none;
+    padding: 20px 40px 15px 15px;
+}
+
+.form-content input[type="text"]{
+    border-radius: 0px;
+    padding: 10px 15px 10px 15px; 
+    width: 100%;
+    border: solid #A73922;
+    border-width: 1px;
+}
+
+.form-content input[type="text"]:focus{
+    outline: none;
+    box-shadow: 1px 1px 10px #A73922;
+}
+
+.form-content input[type="password"]{
+    border-radius: 0px;
+    padding: 10px 15px 10px 15px; 
+    width: 100%;
+    border: solid #A73922;
+    border-width: 1px;
+}
+
+.form-content input[type="password"]:focus{
+    outline: none;
+    box-shadow: 1px 1px 10px #A73922;
+}
+
+.form-content input[type = 'submit']{
+    padding: 5px 35px 5px 35px; /*top right bottom left*/
+    border-radius: 10px;
+    border: solid #A73922;
+    border-width: 1px;
+    color: #ECF0F1 ;
+    background: #A73922;
+    font-size: 20px;
+}
+
+.form-content input[type = 'submit']:hover{
+    background: #BD442B;
+}
+
+@media only screen and (max-width: 980px) {
+    .document{
+        width: 100%;
+    }
+    .action{
+        width: 100%;
+    }
+    .form-content{
+        margin-top: 50px;
+        border-radius: 0px;
+        border: 5px solid #A73922;
+        width: 100%;
+    }
+}

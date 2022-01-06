@@ -1,0 +1,23 @@
+
+/** following are the brief information about the project. **/
+
+/****************** All folder information ******************/
+---------------------------------------------------------------------------------------------------------
+./Bhagyaroop
+all files are related to home page
+---------------------------------------------------------------------------------------------------------
+./Bhagyaroop/bhagyaroop/
+all files related to signup and log in
+---------------------------------------------------------------------------------------------------------
+./Bhagyaroop/bhagyaroop/user/
+all files related to after login activities like registration, plan, payment details, document uploads etc.
+---------------------------------------------------------------------------------------------------------
+./Bhagyaroop/bhagyaroop/user/dashboard/
+all files related to dashboard activities like data filterations, kundali matching, send and incoming interests, notifications, dashboard etc.
+---------------------------------------------------------------------------------------------------------
+./Bhagyaroop/bhagyaroop/user/documents/
+uploaded documents and images are in this folder.
+---------------------------------------------------------------------------------------------------------
+./Bhagyaroop/bhagyaroop/Admin/
+all files related to admin activities
+---------------------------------------------------------------------------------------------------------
